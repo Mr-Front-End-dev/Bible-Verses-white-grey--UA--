@@ -1,0 +1,63 @@
+.section {
+  padding: 15px;
+}
+
+.section__h1 {
+  text-align: center;
+}
+
+.section__paragraph {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.section--bold {
+  font-weight: bold;
+}
+
+.section__button {
+  background-color: hsl(0, 0%, 83%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+  cursor: context-menu; 
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  cursor: context-menu;
+}
+
+.section__button--size {
+  font-size: 22px;
+}
+
+.section__video--paragraph {
+  width: 100%;
+  text-align: center;
+}
+
+.iframe__container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe__container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section--color--gold {
+  color: hsl(51, 100%, 45%);
+}
+
+.section--color--aqua {
+  color:hsl(180, 100%, 45%);
+}
